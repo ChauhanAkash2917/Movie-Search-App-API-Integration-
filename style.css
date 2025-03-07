@@ -1,0 +1,105 @@
+/* General Styles */
+body {
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    min-height: 100vh;
+  }
+  
+  h1{
+    color: yellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+  }
+  .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  /* Search Bar */
+  input#moviesearch {
+    margin-bottom: 15px;
+    padding: 12px;
+    font-size: 1.2rem;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+  }
+  
+  input#moviesearch::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    border: none;
+    background: #ff9800 !;
+    color: white;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background: #e68900 !important;
+  }
+  
+  /* Movie Result Container */
+  #movieResult {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Movie Cards */
+  .movie-card {
+    width: 250px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    backdrop-filter: blur(5px);
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .movie-card h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 0;
+  }
+  
+  .movie-card p {
+    font-size: 1rem;
+    padding-bottom: 10px;
+    color: #ff9800;
+  }
+  
+  .movie-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .movie-card {
+      width: 100%;
+    }
+  }
+  
