@@ -1,7 +1,7 @@
 [**🍿 Movie Search App 🎥**](http://chauhanakash2917.github.io/Movie-Search-App-API-Integration-/)
 
 
-**Description**:
+**Description** **:**
 
 
 Discover your favorite movies effortlessly with the Movie Search App! 🌟 Just type a movie name, and get instant details like ratings, cast, release date, and more. Powered by an integrated API, this app ensures you stay updated with the latest blockbusters and classics alike. 🚀
