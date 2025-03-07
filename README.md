@@ -1,5 +1,5 @@
-**Show me my Work** **:-** http://chauhanakash2917.github.io/Movie-Search-App-API-Integration-/
-
+Movie Search App (API Integration) ( http://chauhanakash2917.github.io/Movie-Search-App-API-Integration-/
+)
 
 **🌟 Key Features:**
 
