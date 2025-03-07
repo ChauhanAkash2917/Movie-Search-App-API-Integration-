@@ -1,6 +1,8 @@
 **Show me my Work** **:-** http://chauhanakash2917.github.io/Movie-Search-App-API-Integration-/
 
+
 **🌟 Key Features:**
+
 
 ✅ Search Any Movie 🎞️ – Enter a movie title and find instant results!
 
@@ -17,7 +19,9 @@
 ✅ Dark Mode 🌙 – Browse movies comfortably at night.
 
 
+
 **🛠️ Tech Stack Used:**
+
 
 
 🚀 Frontend: React.js / Vue.js / Angular (For UI Development)
@@ -32,7 +36,9 @@
 
 
 
+
 **🎯 How It Works?**
+
 
 1️⃣ Enter a movie title in the search bar. 🔍
 
@@ -46,7 +52,9 @@
 
 
 
+
 **🚀 Future Enhancements:**
+
 
 🔹 User Reviews & Ratings ⭐ – Allow users to submit their own ratings.
 
